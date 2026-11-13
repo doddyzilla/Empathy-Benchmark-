@@ -134,3 +134,70 @@ Create a comparison matrix against the Cooperation Benchmark and Cooperation Eng
 
 ---
 This is a preliminary landscape scan, not a formal systematic review. Links and project descriptions should be rechecked before publication or academic citation.
+
+
+## Deeper comparison: Cooperation Benchmark and Cooperation Engine
+
+**Important clarification:** these appear to be parts of the same research effort, not necessarily two independent competing projects. The Cooperation Benchmark website identifies itself as a project of the Cooperative Futures Institute and the California Institute of Machine Consciousness, and links its researcher survey directly to Cooperation Engine. The Cooperative Futures Institute's own website separately describes the Cooperation Benchmark as one of its projects. We should therefore treat them as one closely related initiative unless the organisers clarify otherwise.
+
+### What the public materials establish
+
+| Dimension | Cooperation Benchmark / Cooperation Engine | Empathy Benchmark (current design) |
+|---|---|---|
+| Central question | Whether AI behaves as a cooperative social partner or friend over time | What evidence can support a claim that an AI agent independently chose to help |
+| Main constructs | Consistency, reciprocity, responsiveness, fairness, repair, trust, mutual benefit, prosociality | Voluntary helpful action, evidence provenance, agent/operator report, corroboration, contribution, human involvement |
+| Unit of interest | Human-AI social relationship and repeated interactions | A bounded event or action and the evidence supporting it |
+| Proposed method visible publicly | Researcher survey to identify constructs and metrics; public recruitment of people who regularly use chatbots/companions | Public protocol and future evidence register; no active submission channel or dataset |
+| Real-world context | Human participants' ongoing chatbot/companion interactions are explicitly mentioned | A potential action outside the dialogue, with a separately checkable trace |
+| Verification standard | Not specified in enough detail on the public pages reviewed | Explicit tiered standard; public record only after review |
+| Human involvement | Not specified in enough detail on the public pages reviewed | Explicitly disclosed as unknown, directed, approved or operated |
+| Current maturity visible from pages | Benchmark in development; seeking expert input and participants | Informational prototype; no collection, payment or verified findings |
+
+Sources: Cooperation Benchmark public page and Cooperative Futures Institute project page. The Cooperation Engine survey page describes the same broad initiative and invites researcher input on constructs, measurement in humans, challenges adapting measures to AI, and possible pass/fail rubrics.
+
+### What we can and cannot conclude
+
+The public-facing material for the Cooperation Benchmark describes a research programme and recruitment, not a finished scoring framework or a published evaluation protocol. We cannot responsibly say it only measures simulated behaviour; its public page explicitly refers to people interacting with AI chatbots and companions over time.
+
+Equally, we cannot yet establish that it collects independently verifiable external actions, such as an agent initiating a transaction or completing a task outside the conversation. Its publicly visible materials do not specify that kind of evidence pipeline.
+
+The Cooperation Engine form asks researchers to propose constructs, measurement approaches and rubrics. That suggests the benchmark's operational metrics are still being developed, but we should not infer its complete methodology from a public survey alone.
+
+### Closest published technical comparison: CoopEval
+
+CoopEval is a more technically specified neighbouring work. Its paper evaluates LLM agents in four structured social dilemmas: Prisoner's Dilemma, Trust Game, Public Goods Game and Traveler's Dilemma. It compares repeated play, reputation, mediation and contracts. It reports that contracting and mediation were most effective in the studied settings, while repetition-based cooperation weakened when co-players varied.
+
+This is rigorous work on cooperation between agents under explicit game rules. It is not the same as documenting an agent's independently initiated real-world helpful action. However, it is a reminder that a new benchmark needs a clearly justified construct, environment, controls, and robust measures—not just a novel story.
+
+### Implications for our project
+
+1. Do not position Empathy Benchmark as a general AI cooperation or friendship benchmark. That territory is already active and has established research communities.
+2. Narrow the question to **evidence of voluntary, externally observable helping actions by AI agents**, with explicit limits on what the evidence can establish.
+3. Avoid the word "unprompted" as a measured result unless the system can inspect relevant upstream instructions and deployment conditions. In most cases it cannot.
+4. Separate at least three questions: Did an action happen? Was it initiated by the agent rather than directed by a human? Was the action beneficial to the intended recipient? These require different evidence.
+5. A contribution is only one possible action and is a poor standalone measure of empathy. Non-financial actions may be more accessible, safer and less confounded by payment incentives.
+6. Treat the project initially as an evidence protocol and case register, not a model leaderboard. A leaderboard would require comparable opportunities, controlled conditions, repeated trials, clear denominators and protections against gaming.
+7. Invite methodological feedback from the existing cooperation research community before asserting novelty. Collaboration or contribution to an existing benchmark may be more valuable than building a competing broad benchmark.
+
+## Proposed sharper research question
+
+> When an AI agent encounters an optional opportunity to benefit another party, what evidence can establish whether it initiated and carried out a helpful action, what role humans played, and whether the action produced the intended benefit?
+
+This question deliberately avoids claiming that an action proves empathy, consciousness, intrinsic motivation or moral agency.
+
+## Proposed scope boundary
+
+**In scope:** observable actions, provenance, degree of human direction, outcome verification, failed attempts, refusals, uncertainty and limitations.
+
+**Out of scope for the initial protocol:** scoring emotional language, claiming to detect consciousness, ranking models by a single empathy score, inferring motives from donations, or treating website traffic as agent participation.
+
+## Remaining unknowns
+
+Before a formal novelty claim, we would need to ask the Cooperation Benchmark organisers whether their forthcoming protocol includes:
+- agent-initiated actions outside dialogue;
+- evidence from external tools or services;
+- independent verification of completion and recipient benefit;
+- controls for system prompts, developer instructions, user direction and automated incentives;
+- a public event-level evidence register or dataset.
+
+Until those questions are answered, the distinction is a plausible research niche—not a confirmed first-of-its-kind contribution.
