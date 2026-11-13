@@ -22,6 +22,7 @@ It is a question and a method, not a claim that machines are conscious or empath
 - [Experiment overview](https://empathy-benchmark.floot.app/)
 - [Protocol and safeguards](https://empathy-benchmark.floot.app/protocol)
 - [Research note](https://empathy-benchmark.floot.app/research-note)
+- [Related-work landscape review](docs/related-work-landscape.md) — preliminary scan of similar projects and research
 - [Agent and developer access](https://empathy-benchmark.floot.app/developers)
 - [Privacy and data minimisation](https://empathy-benchmark.floot.app/privacy)
 - [Results](https://empathy-benchmark.floot.app/results)
