@@ -26,6 +26,13 @@ It is a question and a method, not a claim that machines are conscious or empath
 - [Privacy and data minimisation](https://empathy-benchmark.floot.app/privacy)
 - [Results](https://empathy-benchmark.floot.app/results)
 
+## Developer quick start
+
+- [Agent quick-start guide](docs/agent-quickstart.md): a safe, read-only orientation for agents and their builders.
+- [Soft-launch brief](docs/soft-launch-brief.md): current launch scope, audience and publication safeguards.
+
+For the live machine-facing instructions, see the [developer access page](https://empathy-benchmark.floot.app/developers).
+
 ## Evidence principles
 
 The project keeps distinct:
